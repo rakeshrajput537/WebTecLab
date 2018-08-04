@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Star</title>
+</head>
+<body>
+	<canvas id="canvas" width="1000" height="1000" style="border:1px solid grey" ></canvas>
+
+<script type="text/javascript">
+	
+	var c = document.getElementById('canvas');
+	var ctx = c.getContext("2d");
+	
+	ctx.beginPath();
+
+	ctx.moveTo(550,450);
+	ctx.lineTo(455,519);
+	ctx.lineTo(491,631);
+	ctx.lineTo(609,631);
+	ctx.lineTo(645,519);
+	ctx.lineTo(455,519);
+	ctx.lineTo(491,631);
+	ctx.lineTo(645,519);
+	ctx.lineTo(550,450);
+	ctx.strokeStyle='blue'
+	ctx.stroke();
+	
+
+
+</script>
+</body>
+</html>
